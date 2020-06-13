@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2018",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "pretty": true,
+    "outDir": "./.webpack/main",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "baseUrl": ".",
+    // Additional Checks
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    // Module Resolution
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
+}
